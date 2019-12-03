@@ -1,0 +1,27 @@
+{
+  "name": "next-cookie-auth-app",
+  "version": "1.0.0",
+  "description": "Cookie authentication with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmytro9/next-cookie-auh-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmytro9/next-cookie-auh-app/issues"
+  },
+  "homepage": "https://github.com/Dmytro9/next-cookie-auh-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
