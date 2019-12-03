@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,14 @@
   },
   "homepage": "https://github.com/Dmytro9/next-cookie-auh-app#readme",
   "dependencies": {
+    "axios": "^0.19.0",
+    "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "next": "^9.1.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
   }
 }
